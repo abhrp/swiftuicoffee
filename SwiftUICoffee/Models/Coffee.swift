@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Coffee: Decodable {
+struct Coffee {
     let name: String
     let imageUrl: String
     let price: Double
