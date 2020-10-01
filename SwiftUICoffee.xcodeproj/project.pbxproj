@@ -13,6 +13,7 @@
 		44AA8BC825260DCA009E9F9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA8BC725260DCA009E9F9F /* Preview Assets.xcassets */; };
 		44AA8BD325260DCA009E9F9F /* SwiftUICoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8BD225260DCA009E9F9F /* SwiftUICoffeeTests.swift */; };
 		44AA8BDE25260DCA009E9F9F /* SwiftUICoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8BDD25260DCA009E9F9F /* SwiftUICoffeeUITests.swift */; };
+		44AA8BF025260EBE009E9F9F /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8BEF25260EBE009E9F9F /* Coffee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		44AA8BD925260DCA009E9F9F /* SwiftUICoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA8BDD25260DCA009E9F9F /* SwiftUICoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoffeeUITests.swift; sourceTree = "<group>"; };
 		44AA8BDF25260DCA009E9F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AA8BEF25260EBE009E9F9F /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		44AA8BBF25260DC8009E9F9F /* SwiftUICoffee */ = {
 			isa = PBXGroup;
 			children = (
+				44AA8BEE25260EB0009E9F9F /* Models */,
 				44AA8BC025260DC8009E9F9F /* SwiftUICoffeeApp.swift */,
 				44AA8BC225260DC8009E9F9F /* ContentView.swift */,
 				44AA8BC425260DCA009E9F9F /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				44AA8BDF25260DCA009E9F9F /* Info.plist */,
 			);
 			path = SwiftUICoffeeUITests;
+			sourceTree = "<group>";
+		};
+		44AA8BEE25260EB0009E9F9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44AA8BEF25260EBE009E9F9F /* Coffee.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				44AA8BC325260DC8009E9F9F /* ContentView.swift in Sources */,
 				44AA8BC125260DC8009E9F9F /* SwiftUICoffeeApp.swift in Sources */,
+				44AA8BF025260EBE009E9F9F /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
