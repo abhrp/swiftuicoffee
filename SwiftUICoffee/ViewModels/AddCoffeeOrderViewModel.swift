@@ -11,9 +11,9 @@ class AddCoffeeOrderViewModel: ObservableObject {
     
     private var webService: WebService
     
-    private var name: String = ""
-    @Published private var size: String = "Medium"
-    @Published private var coffeeName: String = ""
+    var name: String = ""
+    @Published  var size: String = "Medium"
+    @Published  var coffeeName: String = ""
     
     var coffeeList: [CoffeeViewModel] {
         return Coffee.all().map(CoffeeViewModel.init)

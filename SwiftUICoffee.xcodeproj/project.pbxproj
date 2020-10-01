@@ -21,6 +21,7 @@
 		44AA8C2A25264069009E9F9F /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C2925264069009E9F9F /* CreateOrderResponse.swift */; };
 		44AA8C2F252641D2009E9F9F /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */; };
 		44AA8C34252643F5009E9F9F /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */; };
+		44AA8C39252646A3009E9F9F /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		44AA8C2925264069009E9F9F /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			children = (
 				44AA8BC225260DC8009E9F9F /* ContentView.swift */,
 				44AA8C122526166D009E9F9F /* OrderListView.swift */,
+				44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44AA8BC325260DC8009E9F9F /* ContentView.swift in Sources */,
+				44AA8C39252646A3009E9F9F /* AddCoffeeOrderView.swift in Sources */,
 				44AA8BC125260DC8009E9F9F /* SwiftUICoffeeApp.swift in Sources */,
 				44AA8C34252643F5009E9F9F /* CoffeeViewModel.swift in Sources */,
 				44AA8BF82526109A009E9F9F /* Order.swift in Sources */,

@@ -14,8 +14,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             OrderListView(orders: self.ordersListingViewModel.orders)
-            
+
                 .navigationBarTitle("Coffee Orders")
+            
         }
         
     }
