@@ -19,6 +19,8 @@
 		44AA8C0425261393009E9F9F /* OrdersListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */; };
 		44AA8C132526166D009E9F9F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C122526166D009E9F9F /* OrderListView.swift */; };
 		44AA8C2A25264069009E9F9F /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C2925264069009E9F9F /* CreateOrderResponse.swift */; };
+		44AA8C2F252641D2009E9F9F /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */; };
+		44AA8C34252643F5009E9F9F /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListingViewModel.swift; sourceTree = "<group>"; };
 		44AA8C122526166D009E9F9F /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		44AA8C2925264069009E9F9F /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */,
+				44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */,
+				44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -311,11 +317,13 @@
 			files = (
 				44AA8BC325260DC8009E9F9F /* ContentView.swift in Sources */,
 				44AA8BC125260DC8009E9F9F /* SwiftUICoffeeApp.swift in Sources */,
+				44AA8C34252643F5009E9F9F /* CoffeeViewModel.swift in Sources */,
 				44AA8BF82526109A009E9F9F /* Order.swift in Sources */,
 				44AA8C2A25264069009E9F9F /* CreateOrderResponse.swift in Sources */,
 				44AA8C132526166D009E9F9F /* OrderListView.swift in Sources */,
 				44AA8BFE25261128009E9F9F /* WebService.swift in Sources */,
 				44AA8C0425261393009E9F9F /* OrdersListingViewModel.swift in Sources */,
+				44AA8C2F252641D2009E9F9F /* AddCoffeeOrderViewModel.swift in Sources */,
 				44AA8BF025260EBE009E9F9F /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
