@@ -17,6 +17,7 @@
 		44AA8BF82526109A009E9F9F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8BF72526109A009E9F9F /* Order.swift */; };
 		44AA8BFE25261128009E9F9F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8BFD25261128009E9F9F /* WebService.swift */; };
 		44AA8C0425261393009E9F9F /* OrdersListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */; };
+		44AA8C132526166D009E9F9F /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C122526166D009E9F9F /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		44AA8BF72526109A009E9F9F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		44AA8BFD25261128009E9F9F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListingViewModel.swift; sourceTree = "<group>"; };
+		44AA8C122526166D009E9F9F /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,11 @@
 		44AA8BBF25260DC8009E9F9F /* SwiftUICoffee */ = {
 			isa = PBXGroup;
 			children = (
+				44AA8C112526162F009E9F9F /* Views */,
 				44AA8C0225261377009E9F9F /* ViewModels */,
 				44AA8BFC252610EA009E9F9F /* Services */,
 				44AA8BEE25260EB0009E9F9F /* Models */,
 				44AA8BC025260DC8009E9F9F /* SwiftUICoffeeApp.swift */,
-				44AA8BC225260DC8009E9F9F /* ContentView.swift */,
 				44AA8BC425260DCA009E9F9F /* Assets.xcassets */,
 				44AA8BC925260DCA009E9F9F /* Info.plist */,
 				44AA8BC625260DCA009E9F9F /* Preview Content */,
@@ -164,6 +166,15 @@
 				44AA8C0325261393009E9F9F /* OrdersListingViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		44AA8C112526162F009E9F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44AA8BC225260DC8009E9F9F /* ContentView.swift */,
+				44AA8C122526166D009E9F9F /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +309,7 @@
 				44AA8BC325260DC8009E9F9F /* ContentView.swift in Sources */,
 				44AA8BC125260DC8009E9F9F /* SwiftUICoffeeApp.swift in Sources */,
 				44AA8BF82526109A009E9F9F /* Order.swift in Sources */,
+				44AA8C132526166D009E9F9F /* OrderListView.swift in Sources */,
 				44AA8BFE25261128009E9F9F /* WebService.swift in Sources */,
 				44AA8C0425261393009E9F9F /* OrdersListingViewModel.swift in Sources */,
 				44AA8BF025260EBE009E9F9F /* Coffee.swift in Sources */,
