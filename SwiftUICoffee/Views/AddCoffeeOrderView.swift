@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AddCoffeeOrderView: View {
     
+    @Binding var isPresented: Bool
+    
     @ObservedObject private var addCoffeeOrderViewModel = AddCoffeeOrderViewModel()
     
     var body: some View {
@@ -39,6 +41,7 @@ struct AddCoffeeOrderView: View {
                 HStack {
                     Button("Place Order") {
                         self.addCoffeeOrderViewModel.placeOrder()
+                        self.isPresented = false
                     }
                 }.padding(EdgeInsets(top: 12, leading: 100, bottom: 12, trailing: 100)).foregroundColor(Color.white)
                 .background(Color.blue)
@@ -51,7 +54,7 @@ struct AddCoffeeOrderView: View {
 
 struct AddCoffeeOrderView_Previews: PreviewProvider {
     static var previews: some View {
-        AddCoffeeOrderView()
+        AddCoffeeOrderView(isPresented: .constant(false))
     }
 }
 

@@ -16,7 +16,7 @@ struct Coffee {
 extension Coffee {
     static func all() -> [Coffee] {
         return [
-            Coffee(name: "Cappuccino", imageUrl: "Cappucinno", price: 2.5),
+            Coffee(name: "Cappucinno", imageUrl: "Cappucinno", price: 2.5),
             Coffee(name: "Espresso", imageUrl: "Espresso", price: 2.0),
             Coffee(name: "Regular", imageUrl: "Regular", price: 1.0),
             Coffee(name: "Macchiato", imageUrl: "Macchiato", price: 3.0)
