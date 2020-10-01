@@ -22,6 +22,7 @@
 		44AA8C2F252641D2009E9F9F /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */; };
 		44AA8C34252643F5009E9F9F /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */; };
 		44AA8C39252646A3009E9F9F /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */; };
+		44AA8C5325264FA1009E9F9F /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA8C5225264FA1009E9F9F /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		44AA8C2E252641D2009E9F9F /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		44AA8C33252643F5009E9F9F /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 		44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		44AA8C5225264FA1009E9F9F /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				44AA8BC225260DC8009E9F9F /* ContentView.swift */,
 				44AA8C122526166D009E9F9F /* OrderListView.swift */,
 				44AA8C38252646A3009E9F9F /* AddCoffeeOrderView.swift */,
+				44AA8C5225264FA1009E9F9F /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				44AA8BFE25261128009E9F9F /* WebService.swift in Sources */,
 				44AA8C0425261393009E9F9F /* OrdersListingViewModel.swift in Sources */,
 				44AA8C2F252641D2009E9F9F /* AddCoffeeOrderViewModel.swift in Sources */,
+				44AA8C5325264FA1009E9F9F /* OrderTotalView.swift in Sources */,
 				44AA8BF025260EBE009E9F9F /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
